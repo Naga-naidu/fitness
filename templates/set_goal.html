@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Goal</title>
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/woman-helping-man-gym_23-2149627073.jpg?t=st=1712825780~exp=1712829380~hmac=6d5dc61208c80f43ba9893942c40ce03fdeb97eb817740bd0d5f0f0271cfe68e&w=900");
+            color: white;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Set Goal</h1>
+    <form method="POST">
+        <label for="goal_type">Goal Type:</label>
+        <input type="text" name="goal_type" id="goal_type" required><br>
+        <label for="target_value">Target Value:</label>
+        <input type="number" name="target_value" id="target_value" step="0.01" required><br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" name="start_date" id="start_date" required><br>
+        <label for="end_date">End Date:</label>
+        <input type="date" name="end_date" id="end_date" required><br>
+        <button type="submit">Set Goal</button>
+    </form>
+</body>
+</html>
